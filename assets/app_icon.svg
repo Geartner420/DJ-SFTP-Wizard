@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d313c"/>
+      <stop offset="100%" stop-color="#07090d"/>
+    </linearGradient>
+    <linearGradient id="dj" x1="20%" y1="20%" x2="85%" y2="80%">
+      <stop offset="0%" stop-color="#f6f7fb"/>
+      <stop offset="100%" stop-color="#cfd3dd"/>
+    </linearGradient>
+    <linearGradient id="jgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#39c8ff"/>
+      <stop offset="100%" stop-color="#7a1dff"/>
+    </linearGradient>
+    <linearGradient id="cyanviolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39d3ff"/>
+      <stop offset="100%" stop-color="#6a36ff"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect x="72" y="72" width="880" height="880" rx="180" fill="url(#bg)" stroke="#424756" stroke-width="4" filter="url(#softShadow)"/>
+
+  <path d="M268 294h183c88 0 158 27 210 79c52 53 78 118 78 196c0 77-26 143-79 197c-52 53-122 80-209 80H220l46-229h202c44 0 80-13 108-39c28-26 42-57 42-94c0-36-14-67-41-93c-28-26-64-39-109-39H255z" fill="url(#dj)"/>
+  <path d="M713 612h73c28 0 52-6 72-18c20-11 34-31 42-60l47-253l73-53l-58 309c-12 67-39 117-82 151c-42 34-95 51-157 51H589z" fill="url(#jgrad)"/>
+
+  <g fill="#34b7ff">
+    <rect x="401" y="476" width="16" height="56" rx="8"/>
+    <rect x="430" y="462" width="16" height="84" rx="8" opacity="0.95"/>
+    <rect x="459" y="444" width="16" height="120" rx="8" opacity="0.92"/>
+    <rect x="488" y="413" width="16" height="182" rx="8"/>
+    <rect x="517" y="444" width="16" height="120" rx="8" opacity="0.92"/>
+    <rect x="546" y="462" width="16" height="84" rx="8" opacity="0.95"/>
+    <rect x="575" y="476" width="16" height="56" rx="8"/>
+  </g>
+
+  <g transform="translate(176 674)">
+    <rect x="0" y="0" width="88" height="6" rx="3" fill="url(#cyanviolet)"/>
+    <rect x="0" y="24" width="66" height="6" rx="3" fill="url(#cyanviolet)"/>
+    <rect x="0" y="48" width="80" height="6" rx="3" fill="url(#cyanviolet)"/>
+    <rect x="0" y="72" width="60" height="6" rx="3" fill="url(#cyanviolet)"/>
+  </g>
+
+  <g fill="url(#dj)" font-family="Helvetica Neue, Arial, sans-serif" font-style="italic" font-weight="700">
+    <text x="265" y="726" font-size="122" letter-spacing="-4">SFTP</text>
+  </g>
+
+  <g transform="translate(700 628)">
+    <path d="M38 16h106c10 0 19 7 22 17l10 34h61c21 0 38 17 38 38v98c0 21-17 38-38 38H64c-21 0-38-17-38-38V54c0-21 17-38 38-38z" fill="none" stroke="url(#cyanviolet)" stroke-width="10"/>
+    <path d="M110 189v-60" stroke="#42c7ff" stroke-width="10" stroke-linecap="round"/>
+    <path d="M92 146l18-18l18 18" fill="none" stroke="#42c7ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M191 128v60" stroke="#7a36ff" stroke-width="10" stroke-linecap="round"/>
+    <path d="M173 170l18 18l18-18" fill="none" stroke="#7a36ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
